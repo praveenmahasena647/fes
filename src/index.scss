@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #f8f8ff;
+}
+
+header {
+    .lines {
+        background: green;
+        cursor: pointer;
+        span {
+            background: black;
+            display: block;
+            margin: 9px;
+            width: 37px;
+            border-radius: 69px;
+            height: 4px;
+        }
+    }
+    .bar {
+        background-color: blue;
+    }
+    .links{
+        display: none;
+    }
+    .nav-links{
+        display:block;
+    }
+}
